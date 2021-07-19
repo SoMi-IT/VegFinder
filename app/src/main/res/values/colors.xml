@@ -15,5 +15,6 @@
     <color name="colorPrimaryDarkTransparent">#66212121</color>
     <color name="colorAccent">#A5D800</color>
     <color name="colorAccentNegative">#FF3D00</color>
+    <color name="colorAccentNegativeDark">#AA3D00</color>
 
 </resources>

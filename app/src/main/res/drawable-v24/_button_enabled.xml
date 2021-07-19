@@ -9,7 +9,7 @@
         android:width="2dip"
         android:color="#FFFFFF" />
 
-    <solid android:color="@color/teal_200" />
+    <solid android:color="@color/purple_500" />
 
     <corners android:radius= "90dp" />
 

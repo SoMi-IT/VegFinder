@@ -49,53 +49,28 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorLight"
-        android:ems="10"
-        android:hint="es. #56744"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColor="@color/colorLight"
-        android:textColorHint="@color/colorLight"
-        app:layout_constraintBottom_toTopOf="@id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0sp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40sp"
-        android:text="Inserire il codice identificativo"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@id/v"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/v"
-        android:layout_width="match_parent"
-        android:layout_height="1sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button"
         style="@style/button"
         android:layout_width="180sp"
         android:layout_height="180sp"
         android:layout_marginTop="30sp"
-        android:text="INIZIO TURNO"
+        android:text="SCAN NFC"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/v" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttonDismiss"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="20sp"
+        android:text="FINE TURNO"
+        app:layout_constraintBottom_toTopOf="@+id/vbottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/vbottom"
