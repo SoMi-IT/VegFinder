@@ -37,9 +37,9 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeListene
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.__1);
 
-        v_signUpSignIn = findViewById(R.id.v_sign_up_sign_in);
+        /*v_signUpSignIn = findViewById(R.id.v_sign_up_sign_in);
         pb_signUpSignIn = findViewById(R.id.pb_sign_up_sign_in);
 
         v_signUpSignIn.setVisibility(View.GONE);
@@ -48,7 +48,7 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeListene
         signUpSignInManager = new SignUpSignInManager(this);
         signUpSignInManager.setListener(this);
 
-        showWelcomeFragment();
+        showWelcomeFragment();*/
 
     }//onCreate
 
