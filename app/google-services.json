@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437944397632",
+    "project_id": "vegfinder-c4427",
+    "storage_bucket": "vegfinder-c4427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437944397632:android:9e2f1e210373e5d80214a5",
+        "android_client_info": {
+          "package_name": "com.somi.vegfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437944397632-1n00209bodkgpr9apm3n7lmahj1grpta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0NmA6JCmWO6x7HU1v69WugVKkK90pmdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437944397632-1n00209bodkgpr9apm3n7lmahj1grpta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
