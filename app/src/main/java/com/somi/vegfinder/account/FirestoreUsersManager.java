@@ -32,6 +32,7 @@ public class FirestoreUsersManager implements EventListener<DocumentSnapshot>, O
     }//setMenuListener
 
 
+
     public void initUserData(String _firebaseUserUID){
 
         firebaseUserUID = _firebaseUserUID;
